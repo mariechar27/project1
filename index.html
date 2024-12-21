@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marie Bravo - Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo">Marie B</div>
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="section hero">
+      <div class="hero-text">
+        <h1 class="name">Marie Bravo</h1>
+        <p class="description">An aspiring Full Stack Web Developer</p>
+        <a
+          href="assets/resume.pdf"
+          class="download-btn"
+          download="Marie_Bravo_CV"
+          target="_blank"
+          ><button>Download CV</button></a
+        >
+      </div>
+      <div class="hero-image">
+        <img
+          src="assets/hero chibi.png"
+          alt="Marie"
+          width="300px"
+          height="300px"
+        />
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+      <div class="about-content">
+        <h1>About Me</h1>
+        <p>
+          My name is Marie Bravo, and I’m an aspiring full-stack web developer
+          embarking on an exciting journey from the ground up. With a passion
+          for learning and problem-solving, I’m eager to build my skills and
+          create innovative, user-friendly web applications. This is just the
+          beginning, and I’m excited to grow and make an impact in the tech
+          world!
+        </p>
+      </div>
+      <div class="about-image">
+        <img
+          src="assets/me.jpg"
+          alt="Marie Bravo"
+          height="300px"
+          width="300px"
+        />
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <h1>My Tech Skills</h1>
+      <div class="tech-icons">
+        <img
+          src="assets/HTML LOGO.png"
+          alt="HTML Logo"
+          width="150"
+          height="150"
+        />
+        <img
+          src="assets/CSS LOGO.png"
+          alt="CSS Logo"
+          width="150"
+          height="150"
+        />
+        <img
+          src="assets/JS LOGO.png"
+          alt="JavaScript Logo"
+          width="150"
+          height="150"
+        />
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h1>PROJECTS</h1>
+      <div class="project-grid">
+        <article class="project">
+          <h2>Temple Run</h2>
+          <img
+            src="assets/placehold.jpg"
+            alt="Temple Run Project"
+            width="200"
+            height="200"
+          />
+          <p>
+            A thrilling endless runner game with exciting features and smooth
+            gameplay experience.
+          </p>
+          <div class="project-links">
+            <a href="https://example.com" target="_blank">View Demo</a>
+            <a href="https://gitlab.com/marie_char27" target="_blank"
+              >View Git</a
+            >
+          </div>
+        </article>
+        <article class="project">
+          <h2>Lucky Game</h2>
+          <img
+            src="assets/placehold.jpg"
+            alt="Lucky Game Project"
+            width="200"
+            height="200"
+          />
+          <p>
+            Test your luck with this interactive game featuring fun challenges
+            and engaging visuals.
+          </p>
+          <div class="project-links">
+            <a href="https://example.com" target="_blank">View Demo</a>
+            <a href="https://gitlab.com/marie_char27" target="_blank"
+              >View Git</a
+            >
+          </div>
+        </article>
+        <article class="project">
+          <h2>Ride Safe</h2>
+          <img
+            src="assets/placehold.jpg"
+            alt="Ride Safe Project"
+            width="200"
+            height="200"
+          />
+          <p>
+            A safety-first platform designed to enhance commuter experiences
+            with real-time features.
+          </p>
+          <div class="project-links">
+            <a href="https://example.com" target="_blank">View Demo</a>
+            <a href="https://gitlab.com/marie_char27" target="_blank"
+              >View Git</a
+            >
+          </div>
+        </article>
+        <article class="project">
+          <h2>Treasure Gem</h2>
+          <img
+            src="assets/placehold.jpg"
+            alt="Treasure Gem Project"
+            width="200"
+            height="200"
+          />
+          <p>
+            An adventurous treasure hunt game with vibrant graphics and exciting
+            gameplay mechanics.
+          </p>
+          <div class="project-links">
+            <a href="https://example.com" target="_blank">View Demo</a>
+            <a href="https://gitlab.com/marie_char27" target="_blank"
+              >View Git</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <h1>Get in Touch</h1>
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form
+            action="mailto:mchar.r27@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Complete Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <input
+              type="text"
+              name="phone"
+              placeholder="Contact Number"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Description"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <!-- Contact Information -->
+        <div class="contact-details">
+          <p><strong>Address:</strong> Makati City, Philippines</p>
+          <p><strong>Contact Number:</strong> 0967-214-3063</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:mchar.r27b@gmail.com">mchar.r27b@gmail.com</a>
+          </p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+              <img
+                src="assets/linked in.jpg"
+                alt="LinkedIn Logo"
+                height="50px"
+                width="50px"
+              />
+            </a>
+            <a href="https://github.com/your-profile" target="_blank">
+              <img
+                src="assets/github.png"
+                alt="GitHub Logo"
+                height="50px"
+                width="50px"
+              />
+            </a>
+            <a href="https://facebook.com/your-profile" target="_blank">
+              <img
+                src="assets/fb.jpg"
+                alt="Facebook Logo"
+                height="50px"
+                width="50px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Marie Bravo | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
